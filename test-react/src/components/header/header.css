@@ -1,0 +1,40 @@
+.header-wrapper {
+  width: 100%;
+  background-color: #0564eb !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+}
+
+.githubLogo {
+  margin-left: 41px;
+  margin-right: 16px;
+  background-color: #0564eb;
+}
+
+.form-wrapper {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.form-wrapper input {
+  width: 100%;
+  padding: 6px;
+  float: left;
+  font: 15px 'Inter', 'trebuchet MS', 'Tahoma';
+  border: 0;
+  background: #eee;
+  border-radius: 3px;
+}
+
+.form-wrapper input:focus {
+  outline: 0;
+  background: #fff;
+}
+
+@media screen and (min-width: 1300px) {
+  .header-wrapper {
+    justify-content: flex-start;
+  }
+}
